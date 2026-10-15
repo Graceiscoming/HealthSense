@@ -30,8 +30,12 @@ HealthSense/
 ├── CP462_Project_HealthSense.ipynb   # Notebook หลัก (รันบน Google Colab)
 ├── HealthSense_Pitching.pdf          # สไลด์นำเสนอ
 ├── update_report/
-│   ├── phase1.md                     # รายงานความคืบหน้า Phase 1
-│   └── images/                       # กราฟที่ export จาก notebook
+│   ├── phase1/
+│   │   ├── report.md                 # รายงานความคืบหน้า Phase 1
+│   │   └── images/                   # กราฟที่ export จาก notebook
+│   └── phase2/
+│       ├── Checkpoint.md             # รายละเอียดโครงงาน (ปัญหา, ชุดข้อมูล, feature/target, task)
+│       └── checkpoint.pdf
 └── README.md
 ```
 
@@ -62,7 +66,7 @@ Dependencies: `pandas`, `numpy`, `matplotlib`, `seaborn`, `kagglehub`
 - ผู้ที่เคยหรือกำลังสูบบุหรี่มีสัดส่วนเบาหวานสูงกว่ากลุ่มที่ไม่เคยสูบ และความเสี่ยงเพิ่มขึ้นตามอายุอย่างชัดเจน
 - correlation เป็นความสัมพันธ์เชิงสถิติ ไม่ใช่ความสัมพันธ์เชิงเหตุและผล
 
-รายละเอียดเพิ่มเติมดู [`update_report/phase1.md`](update_report/phase1.md)
+รายละเอียดเพิ่มเติมดู [`update_report/phase1/report.md`](update_report/phase1/report.md)
 
 ## ขั้นต่อไป
 

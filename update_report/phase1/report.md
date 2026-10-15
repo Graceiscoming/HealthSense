@@ -30,7 +30,7 @@
 
 ## 3. ชุดข้อมูล
 
-- **ชื่อ:** Diabetes Prediction Dataset (Kaggle: `iammustafatz/diabetes-prediction-dataset`, cross-sectional, April 2023)
+- **ชื่อ:** Diabetes Prediction Dataset (Kaggle: `iammustafatz/diabetes-prediction-dataset`)
 - **ขนาด:** 100,000 แถว × 9 คอลัมน์ (8 features + 1 target)
 - **การโหลด:** ใช้ `kagglehub.dataset_download` (public dataset ไม่ต้อง login) แล้วอ่านด้วย pandas
 
@@ -101,7 +101,7 @@
 
 ## 6. สรุปผล Phase 1
 
-- อายุเป็นปัจจัยที่ทำให้ความเสี่ยงเพิ่มขึ้นชัดเจนที่สุด และได้รับการยืนยันร่วมกับ glucose, HbA1c และ BMI
+- ความเสี่ยงเบาหวานเพิ่มขึ้นตามอายุอย่างสม่ำเสมอ (กราฟ 5) ส่วนตัวแปรที่สัมพันธ์กับ diabetes สูงสุดคือ `blood_glucose_level` (0.42) และ `HbA1c_level` (0.41) ตามด้วย age (0.26) และ BMI (0.21)
 - พฤติกรรมการสูบบุหรี่ยังต้องวิเคราะห์เพิ่มเติม (โดยเฉพาะกลุ่ม `unknown` ที่มีสัดส่วนมาก)
 - ปัญหาสำคัญที่ต้องจัดการต่อคือ **class imbalance**
 
